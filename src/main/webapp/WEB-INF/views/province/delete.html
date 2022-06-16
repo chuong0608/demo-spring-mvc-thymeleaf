@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post">
+    <input type="hidden" th:value="${provines.id}">
+    <input type="text" name="name" th:value="${provines.name}">
+    <input type="text" name="description" th:value="${provines.description}">
+    <button>Xoa</button>
+</form>
+</body>
+</html>
